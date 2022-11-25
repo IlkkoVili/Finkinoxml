@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Leffat</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Valitse teatteri</h1>
+        <select id="dropdown"></select>
+
+            <!--    Teatterin elokuvien hakukenttä  -->
+            <form class="etsi-kentta">
+                <input id='etsi' type="text" class="uusi-task-input"  placeholder="Etsi elokuvaa" />   
+            </form>
+            
+             <!--    Teatterin elokuvat   -->      
+            <h2>Päivän Näytökset</h2>
+            <div class="elokuvatcontainer"></div>      
+            <table id="lista"></table>
+    </div> 
+    
+
+ <script src="script.js" defer></script>  
+</body>
+</html>
